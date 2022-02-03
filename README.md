@@ -4,7 +4,7 @@ The 100 days of code challenge 😍
 
 ## Timeline
 
-|  Day  | Project                               | Description                                                                           | Language      | Date       |
+|  Day  | Project                               | Description                                                                           | Language     | **Date &nbsp;:calendar:**|
 |-------| ------------------------------------- | ------------------------------------------------------------------------------------- |  -----------  |  --------  |
 |   1   | Basic Band Name Generator             | Very Basic Band Name Generator to learn about printing                                | Python        | 26-01-2022 |
 |   2   | Tip Calaculator                       | Basic Tip Calaculator tu understand coding arithmetics                                | Python        | 27-01-2022 |
