@@ -2,6 +2,14 @@
 
 The 100 days of code challenge 😍
 
+## Goals
+
+- [x] Code daily
+- [x] Expand portfolio
+- [x] Hone my Git CLI skills
+- [x] Complete as many courses, classes, challenges, & certifications as possible
+- [x] Expand my horizons on different domains of coding
+
 ## Timeline
 
 | **Day:pushpin:** | Project                   | **Description :alarm_clock:**                                                   | Language | **Date  :calendar:** |
