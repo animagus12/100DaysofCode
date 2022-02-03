@@ -23,7 +23,7 @@ The 100 days of code challenge 😍
 | 7                | Hangman                   | Making a simple terminal based game of Hangman                                  | Python   | Feb 01, 2022         |
 | 8                | Caesar Cipher             | Encoding and Decoding a message using Caesar Cypher                             | Python   | Feb 02, 2022         |
 | 9                | Secret Auction            | A simple auction system for understanding lists, dictionaries and their nesting | Python   | Feb 03, 2022         |
-|                  |                           |                                                                                 |          |                      |
+| 10               | In-Line Calculator        | A Simpleon terminal Calculator to understand multiple reutrns                   | Python   | Feb 04, 2022         |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
