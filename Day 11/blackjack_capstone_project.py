@@ -46,8 +46,8 @@ def black_jack():
         if sum(p_list) > 21:
             break
         choice = input("Type 'y' to get another card, type 'n' to pass: ")
-    print(f"Your final hand: {p_list}, final score: {sum(p_list)}")
-    print(f"Computer's final hand: {d_list}, final score: {sum(d_list)}")
+    print(f"\tYour final hand: {p_list}, final score: {sum(p_list)}")
+    print(f"\tComputer's final hand: {d_list}, final score: {sum(d_list)}")
     if sum(p_list) > 21:
         print("You went over. You lose 😭")
     elif sum(d_list) > 21:
