@@ -26,7 +26,7 @@ The 100 days of code challenge 😍
 | 10               | In-Line Calculator        | A Simpleon terminal Calculator to understand multiple reutrns                   | Python   | Feb 04, 2022         |
 | 11               | Game of Blackjack         | First Capstone Project                                                          | Python   | Feb 05, 2022         |
 | 12               | Number Guessing Game      | Number Guesser to understand scopes                                             | Python   | Feb 06, 2022         |
-|                  |                           |                                                                                 |          |                      |
+| 13               | Debugging                 | Learnign the best ways to debug codes                                           | Python   | Feb 07, 2022         |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
