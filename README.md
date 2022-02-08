@@ -27,8 +27,8 @@ The 100 days of code challenge 😍
 | 11               | Game of Blackjack         | First Capstone Project                                                          | Python   | Feb 05, 2022         |
 | 12               | Number Guessing Game      | Number Guesser to understand scopes                                             | Python   | Feb 06, 2022         |
 | 13               | Debugging                 | Learnign the best ways to debug codes                                           | Python   | Feb 07, 2022         |
-| 14               | Higher-Lower Game         | A game of higher and lower using celebrities instagram follower count           | Python   | Feb 07, 2022         |
-|                  |                           |                                                                                 |          |                      |
+| 14               | Higher-Lower Game         | A game of higher and lower using celebrities instagram follower count           | Python   | Feb 08, 2022         |
+| 15               | Coffee Maker              | Program to mimic the working of a real-life coffee machine                      | Python   | Feb 09, 2022         |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
