@@ -29,8 +29,8 @@ The 100 days of code challenge 😍
 | 13               | Debugging                 | Learnign the best ways to debug codes                                           | Python   | Feb 07, 2022         |
 | 14               | Higher-Lower Game         | A game of higher and lower using celebrities instagram follower count           | Python   | Feb 08, 2022         |
 | 15               | Coffee Maker              | Program to mimic the working of a real-life coffee machine                      | Python   | Feb 09, 2022         |
-|                  |                           |                                                                                 |          |                      |
-|                  |                           |                                                                                 |          |                      |
+| 16               | Coffee Maker using OOP    | Reprogramming the Coffee Maker Code to implement OOP                            | Python   | Feb 10, 2022         |
+| 17               | Quiz Game                 | Making a Quiz Game by implementing OOP using Open Trivia API                    | Python   | Feb 11, 2022         |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
