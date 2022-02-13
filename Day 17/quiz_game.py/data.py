@@ -3,7 +3,7 @@ question_data = [
         "category": "Entertainment: Television",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "AMC&#039;s &quot;The Walking Dead&quot;, Rick, Carl, Daryl, Morgan, Carol and Maggie were introduced to us in Season 1.",
+        "question": "AMC's 'The Walking Dead', Rick, Carl, Daryl, Morgan, Carol and Maggie were introduced to us in Season 1.",
         "correct_answer": "False",
         "incorrect_answers": [
             "True"
@@ -53,7 +53,7 @@ question_data = [
         "category": "Entertainment: Music",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "Arcade Fire&#039;s &#039;The Suburbs&#039; won the Album of the Year award in the 2011 Grammys.",
+        "question": "Arcade Fire's 'The Suburbs' won the Album of the Year award in the 2011 Grammys.",
         "correct_answer": "True",
         "incorrect_answers": [
             "False"
@@ -63,7 +63,7 @@ question_data = [
         "category": "Entertainment: Music",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "Rapper Snoop Dogg&#039;s real name is &#039;Cordozar Calvin Broadus, Jr.&#039;.",
+        "question": "Rapper Snoop Dogg's real name is 'Cordozar Calvin Broadus, Jr.'.",
         "correct_answer": "True",
         "incorrect_answers": [
             "False"
@@ -173,7 +173,7 @@ question_data = [
         "category": "General Knowledge",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "The French word to travel is &quot;Travail&quot;",
+        "question": "The French word to travel is 'Travail'",
         "correct_answer": "False",
         "incorrect_answers": [
             "True"
@@ -183,7 +183,7 @@ question_data = [
         "category": "Entertainment: Video Games",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "The Sniper&#039;s SMG in Team Fortress 2, was originally intended to be the Scout&#039;s primary weapon.",
+        "question": "The Sniper's SMG in Team Fortress 2, was originally intended to be the Scout's primary weapon.",
         "correct_answer": "True",
         "incorrect_answers": [
             "False"
@@ -193,7 +193,7 @@ question_data = [
         "category": "Geography",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "&quot;Mongolia&quot; was a part of the now non-existent U.S.S.R.",
+        "question": "'Mongolia' was a part of the now non-existent U.S.S.R.",
         "correct_answer": "False",
         "incorrect_answers": [
             "True"
@@ -203,7 +203,7 @@ question_data = [
         "category": "Science & Nature",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "Centripedal force is an apparent force that acts outward on a body moving around a center, arising from the body&#039;s inertia.",
+        "question": "Centripedal force is an apparent force that acts outward on a body moving around a center, arising from the body's inertia.",
         "correct_answer": "False",
         "incorrect_answers": [
             "True"
@@ -253,7 +253,7 @@ question_data = [
         "category": "Entertainment: Music",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "For his performance at ComplexCon 2016 in Long Beach, California, Skrillex revived his &quot;Mothership&quot; set piece for one night only.",
+        "question": "For his performance at ComplexCon 2016 in Long Beach, California, Skrillex revived his 'Mothership' set piece for one night only.",
         "correct_answer": "True",
         "incorrect_answers": [
             "False"
@@ -273,7 +273,7 @@ question_data = [
         "category": "Entertainment: Film",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "Joan Cusack starred in the 2009 disaster movie, &quot;2012&quot;.",
+        "question": "Joan Cusack starred in the 2009 disaster movie, '2012'.",
         "correct_answer": "False",
         "incorrect_answers": [
             "True"
@@ -283,7 +283,7 @@ question_data = [
         "category": "Entertainment: Video Games",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "In Riot Games &quot;League of Legends&quot; the name of Halloween event is called &quot;The Reckoning&quot;.",
+        "question": "In Riot Games 'League of Legends' the name of Halloween event is called 'The Reckoning'.",
         "correct_answer": "False",
         "incorrect_answers": [
             "True"
@@ -293,7 +293,7 @@ question_data = [
         "category": "Entertainment: Television",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "Like his character in &quot;Parks and Recreation&quot;, Aziz Ansari was born in South Carolina.",
+        "question": "Like his character in 'Parks and Recreation', Aziz Ansari was born in South Carolina.",
         "correct_answer": "True",
         "incorrect_answers": [
             "False"
@@ -303,7 +303,7 @@ question_data = [
         "category": "Entertainment: Video Games",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "In the video game &quot;Transistor&quot;, &quot;Red&quot; is the name of the main character.",
+        "question": "In the video game 'Transistor', 'Red' is the name of the main character.",
         "correct_answer": "True",
         "incorrect_answers": [
             "False"
@@ -313,7 +313,7 @@ question_data = [
         "category": "Entertainment: Television",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "Klingons once had a period of Democracy in their history, they referred to it as the &quot;Dark Times&quot;.",
+        "question": "Klingons once had a period of Democracy in their history, they referred to it as the 'Dark Times'.",
         "correct_answer": "True",
         "incorrect_answers": [
             "False"
@@ -323,7 +323,7 @@ question_data = [
         "category": "Entertainment: Television",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "In &quot;Star Trek&quot;, Klingons are commonly referred to as &quot;Black Elves&quot;.",
+        "question": "In 'Star Trek', Klingons are commonly referred to as 'Black Elves'.",
         "correct_answer": "False",
         "incorrect_answers": [
             "True"
@@ -353,7 +353,7 @@ question_data = [
         "category": "Entertainment: Board Games",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "&quot;Rich Uncle Pennybags&quot; from the board game &quot;Monopoly&quot; wears a monocle.",
+        "question": "'Rich Uncle Pennybags' from the board game 'Monopoly' wears a monocle.",
         "correct_answer": "False",
         "incorrect_answers": [
             "True"
@@ -383,7 +383,7 @@ question_data = [
         "category": "Entertainment: Cartoon & Animations",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "Blue Danube was one of the musical pieces featured in Disney&#039;s 1940&#039;s film Fantasia.",
+        "question": "Blue Danube was one of the musical pieces featured in Disney's 1940's film Fantasia.",
         "correct_answer": "False",
         "incorrect_answers": [
             "True"
@@ -433,7 +433,7 @@ question_data = [
         "category": "Entertainment: Music",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "Metallica collaborated with Rowan Atkinson&#039;s Mr Bean on a 1992 comic relief single.",
+        "question": "Metallica collaborated with Rowan Atkinson's Mr Bean on a 1992 comic relief single.",
         "correct_answer": "False",
         "incorrect_answers": [
             "True"
@@ -453,7 +453,7 @@ question_data = [
         "category": "Science: Computers",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "A Boolean value of &quot;0&quot; represents which of these words?",
+        "question": "A Boolean value of '0' represents which of these words?",
         "correct_answer": "False",
         "incorrect_answers": [
             "True"
@@ -463,7 +463,7 @@ question_data = [
         "category": "Entertainment: Music",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "&quot;Neutral Milk Hotel&quot; is a real band.",
+        "question": "'Neutral Milk Hotel' is a real band.",
         "correct_answer": "True",
         "incorrect_answers": [
             "False"
@@ -473,7 +473,7 @@ question_data = [
         "category": "Science & Nature",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "&quot;Tachycardia&quot; or &quot;Tachyarrhythmia&quot; refers to a resting heart-rate near or over 100 BPM.",
+        "question": "'Tachycardia' or 'Tachyarrhythmia' refers to a resting heart-rate near or over 100 BPM.",
         "correct_answer": "True",
         "incorrect_answers": [
             "False"
@@ -483,7 +483,7 @@ question_data = [
         "category": "Entertainment: Video Games",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "The game Garry&#039;s Mod originally took assets and codes from the popular Half Life 2 mod JBmod.",
+        "question": "The game Garry's Mod originally took assets and codes from the popular Half Life 2 mod JBmod.",
         "correct_answer": "True",
         "incorrect_answers": [
             "False"
