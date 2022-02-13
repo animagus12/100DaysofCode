@@ -31,9 +31,9 @@ The 100 days of code challenge 😍
 | 15               | Coffee Maker              | Program to mimic the working of a real-life coffee machine                      | Python   | Feb 09, 2022         |
 | 16               | Coffee Maker using OOP    | Reprogramming the Coffee Maker Code to implement OOP                            | Python   | Feb 10, 2022         |
 | 17               | Quiz Game                 | Making a Quiz Game by implementing OOP using Open Trivia API                    | Python   | Feb 11, 2022         |
-|                  |                           |                                                                                 |          |                      |
-|                  |                           |                                                                                 |          |                      |
-|                  |                           |                                                                                 |          |                      |
+| 18               | Hirst Painting            | Making the $1.4M painting using Turtle Graphics                                 | Python, Turtle | Feb 12, 2022   |
+| 19               | Etch-A-Sketch             | Making a Etch-A-Sketch window using turtle graphics                             | Python, Turtle | Feb 13, 2022   |
+| 19               | Turtle Race               |  Making multiple turtles race using turtle graphics                             | Python, Turtle | Feb 13, 2022   |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
