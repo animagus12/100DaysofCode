@@ -26,6 +26,7 @@ class Snake:
             self.segments[seg_num].goto(self.segments[seg_num - 1].xcor(), self.segments[seg_num - 1].ycor())
         self.head.forward(MOVE_DISTANCE)
     
+    # To go up
     def up(self):
         if self.head.heading() != DOWN:
             self.head.setheading(UP)
