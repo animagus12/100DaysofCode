@@ -33,8 +33,8 @@ The 100 days of code challenge 😍
 | 17               | Quiz Game                 | Making a Quiz Game by implementing OOP using Open Trivia API                    | Python   | Feb 11, 2022         |
 | 18               | Hirst Painting            | Making the $1.4M painting using Turtle Graphics                                 | Python, Turtle | Feb 12, 2022   |
 | 19               | Etch-A-Sketch             | Making a Etch-A-Sketch window using turtle graphics                             | Python, Turtle | Feb 13, 2022   |
-| 19               | Turtle Race               |  Making multiple turtles race using turtle graphics                             | Python, Turtle | Feb 13, 2022   |
-|                  |                           |                                                                                 |          |                      |
+| 19               | Turtle Race               | Making multiple turtles race using turtle graphics                              | Python, Turtle | Feb 13, 2022   |
+| 20               | Snake Game                | Making the Sanke Game                                                           | Python, Turtle | Feb 13, 2022   |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
