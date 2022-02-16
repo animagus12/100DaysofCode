@@ -1,4 +1,4 @@
-from turtle import Turtle, Screen, color, shape
+from turtle import Turtle, Screen
 import turtle
 from random import randint
 
