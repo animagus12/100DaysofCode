@@ -38,7 +38,7 @@ The 100 days of code challenge 😍
 | 21               | Snake Game                | Completing the Sanke Game                                                       | Python, Turtle | Feb 15, 2022   |
 | 22               | Pong                      | Making the Game Pong                                                            | Python, Turtle | Feb 16, 2022   |
 | 23               | Turtle Crossing Game      | Second Capstone Project                                                         | Python, Turtle | Feb 17, 2022   |
-|                  |                           |                                                                                 |          |                      |
+| 24               | Automatic Mail Merger     | Making a Mail Merger to better understand paths and folders                     | Python   | Feb 18, 2022         |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
