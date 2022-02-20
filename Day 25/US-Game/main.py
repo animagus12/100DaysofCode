@@ -14,11 +14,9 @@ game_is_on = True
 while len(guessed_state) < 50:
     answer_state = screen.textinput(
         title=f"{len(guessed_state)}/{len(data.state)} Guess the State", prompt="What's another state's name?").title()
+
     if answer_state == "Exit":
-        to_learn_list = []
-        for state in all_state_list:
-            if state not in guessed_state:
-                to_learn_list.append(state)
+        to_learn_list = [state for state in all_state_list if state not in guessed_state]
         new_data = pandas.DataFrame(to_learn_list)
         new_data.to_csv("Python/#100DaysOfCode/Day 25/US-Game/states_to_learn.csv")
         break
