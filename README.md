@@ -39,11 +39,11 @@ The 100 days of code challenge 😍
 | 22               | Pong                      | Making the Game Pong                                                            | Python, Turtle | Feb 16, 2022   |
 | 23               | Turtle Crossing Game      | Second Capstone Project                                                         | Python, Turtle | Feb 17, 2022   |
 | 24               | Automatic Mail Merger     | Making a Mail Merger to better understand paths and folders                     | Python   | Feb 18, 2022         |
-|                  |                           |                                                                                 |          |                      |
-|                  |                           |                                                                                 |          |                      |
-|                  |                           |                                                                                 |          |                      |
-|                  |                           |                                                                                 |          |                      |
-|                  |                           |                                                                                 |          |                      |
+| 25               | US States Game            | Making a Guesser Game with CSV Data using Pandas                                | Python, Turtle, Pandas | Feb 19, 2022 |
+| 26               | Phonetics Generator       | Making a phonetics generator using Pandas and data from NATO                    | Python, Pandas | Feb 20, 2022   |
+| 27               | Miles To Km Converter     | Making an app to convert miles to km using with a GUI builder                   | Python, Tkinter | Feb 21, 2022  |
+| 28               | Pomodoro Timer App        | Making a Pomodoro Clock for betterment of work management                       | Python, Tkinter | Feb 22, 2022  |
+| 29               | Password Manager          | Making a password manager with a generator and storing them in a text file      | Python, Tkinter | Feb 23, 2022  |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |

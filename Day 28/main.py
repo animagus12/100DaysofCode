@@ -2,7 +2,6 @@
 # ---------------------------- CONSTANTS ------------------------------- #
 from tkinter import *
 
-from matplotlib.pyplot import text, title
 PINK = "#e2979c"
 RED = "#e7305b"
 GREEN = "#9bdeac"
