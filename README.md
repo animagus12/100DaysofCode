@@ -44,7 +44,7 @@ The 100 days of code challenge 😍
 | 27               | Miles To Km Converter     | Making an app to convert miles to km using with a GUI builder                   | Python, Tkinter | Feb 21, 2022  |
 | 28               | Pomodoro Timer App        | Making a Pomodoro Clock for betterment of work management                       | Python, Tkinter | Feb 22, 2022  |
 | 29               | Password Manager          | Making a password manager with a generator and storing them in a text file      | Python, Tkinter | Feb 23, 2022  |
-|                  |                           |                                                                                 |          |                      |
+| 30               | Updated Password Manager  | Handling Errors and saving the data in JSON with added search functionality     | Python, Tkinter | Feb 23, 2022  |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
