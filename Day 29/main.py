@@ -37,12 +37,10 @@ def add_pass():
     password = pass_entry.get()
 
     if len(website) == 0 or len(username) == 0 or len(password) == 0:
-        messagebox.showerror(
-            title="Oops", message="Don't leave any fields empty")
+        messagebox.showerror(title="Oops", message="Don't leave any fields empty")
     else:
 
-        is_ok = messagebox.askokcancel(
-            title=website, message=f"These are the detals enetered: \nWebsite: {website} \nEmail/Username: {username} \nPassword: {password} \nIs this okay to save?")
+        is_ok = messagebox.askokcancel(title=website, message=f"These are the detals enetered: \nWebsite: {website} \nEmail/Username: {username} \nPassword: {password} \nIs this okay to save?")
 
         if is_ok == True:
             with open("Python/#100DaysOfCode/Day 29/data.txt", "a") as f:
