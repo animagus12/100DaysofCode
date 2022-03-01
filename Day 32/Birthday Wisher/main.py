@@ -3,8 +3,8 @@ import smtplib
 import datetime as dt
 from random import choice
 
-my_email = "subhrajit_panda@yahoo.com"
-password = "grcnzyctugmzlpwk"
+my_email = "subhrajit.panda1212@gmail.com"
+password = "Sbp@2001"
 
 # Update the birthdays.csv
 list_file = pandas.read_csv(
@@ -24,7 +24,7 @@ for entry in all_data:
         final_mail = mail_text.replace("[NAME]", entry['name'])
 
 # Send the letter to that person's email address.
-        with smtplib.SMTP("smtp.mail.yahoo.com") as connection:
+        with smtplib.SMTP("smtp.gmail.com") as connection:
             connection.starttls()
             connection.login(user=my_email, password=password)
             connection.sendmail(
