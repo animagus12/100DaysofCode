@@ -49,7 +49,7 @@ The 100 days of code challenge 😍
 | 32               | Automatic Birthday Wisher | Making a automatic bday wisher using pandas and sending them to the mail        | Python, Pandas | Feb 26, 2022   |
 | 33               | ISS Overhead Notifier     | Making a automatic ISS detector and mail sender                                 | Python, API    | Feb 27, 2022   |
 | 34               | Quizzler App              | Making a quiz app using an external API                                         | Python, Tkinter, API | Feb 28, 2022 |
-| 35               |                           |                                                                                 |          | Mar 01, 2022         |
+| 35               | Weather Norifier          | Making a automatic weather report app to notify us for rain                     | Python, API | Mar 01, 2022      |
 | 36               |                           |                                                                                 |          | Mar 02, 2022         |
 | 37               |                           |                                                                                 |          | Mar 03, 2022         |
 | 38               |                           |                                                                                 |          |                      |
