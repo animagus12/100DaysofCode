@@ -44,14 +44,14 @@ The 100 days of code challenge 😍
 | 27               | Miles To Km Converter     | Making an app to convert miles to km using with a GUI builder                   | Python, Tkinter | Feb 21, 2022  |
 | 28               | Pomodoro Timer App        | Making a Pomodoro Clock for betterment of work management                       | Python, Tkinter | Feb 22, 2022  |
 | 29               | Password Manager          | Making a password manager with a generator and storing them in a text file      | Python, Tkinter | Feb 23, 2022  |
-| 30               | Updated Password Manager  | Handling Errors and saving the data in JSON with added search functionality     | Python, Tkinter | Feb 23, 2022  |
-| 31               | Flash Card                | Capstone Project to make GUI Flash Card App                                     | Python, Tkinter | Feb 24, 2022  |
-| 32               | Automatic Birthday Wisher | Making a automatic bday wisher using pandas and sending them to the mail        | Python, Pandas | Feb 25, 2022   |
-| 33               | ISS Overhead Notifier     | Making a automatic ISS detector and mail sender                                 | Python, API    | Feb 26, 2022   |
-| 34               | Quizzler App              | Making a quiz app using an external API                                         | Python, Tkinter, API | Feb 27, 2022 |
-| 35               |                           |                                                                                 |          | Feb 28, 2022         |
-| 36               |                           |                                                                                 |          | Mar 01, 2022         |
-| 37               |                           |                                                                                 |          | Mar 02, 2022         |
+| 30               | Updated Password Manager  | Handling Errors and saving the data in JSON with added search functionality     | Python, Tkinter | Feb 24, 2022  |
+| 31               | Flash Card                | Capstone Project to make GUI Flash Card App                                     | Python, Tkinter | Feb 25, 2022  |
+| 32               | Automatic Birthday Wisher | Making a automatic bday wisher using pandas and sending them to the mail        | Python, Pandas | Feb 26, 2022   |
+| 33               | ISS Overhead Notifier     | Making a automatic ISS detector and mail sender                                 | Python, API    | Feb 27, 2022   |
+| 34               | Quizzler App              | Making a quiz app using an external API                                         | Python, Tkinter, API | Feb 28, 2022 |
+| 35               |                           |                                                                                 |          | Mar 01, 2022         |
+| 36               |                           |                                                                                 |          | Mar 02, 2022         |
+| 37               |                           |                                                                                 |          | Mar 03, 2022         |
 | 38               |                           |                                                                                 |          |                      |
 | 39               |                           |                                                                                 |          |                      |
 | 40               |                           |                                                                                 |          |                      |
