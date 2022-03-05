@@ -52,9 +52,9 @@ The 100 days of code challenge 😍
 | 35               | Weather Norifier          | Making a automatic weather report app to notify us for rain                     | Python, API | Mar 01, 2022      |
 | 36               | Stock Trading News Alert  | A basic app to check for deviations of a stock and notify us with the news      | Python, API | Mar 02, 2022      |
 | 37               | Habit Tracker             | A tracker for your daily habits                                                 | Python, API | Mar 03, 2022      |
-| 38               | Workout Tracker           | A tracker for your wrokouts and save them on google sheet                       | Python, API | Mar 03, 2022      |
-| 39               | Flight Deal Finder        |                                                                                 |          |                      |
-| 40               |                           |                                                                                 |          |                      |
+| 38               | Workout Tracker           | A tracker for your wrokouts and save them on google sheet                       | Python, API | Mar 04, 2022      |
+| 39               | Flight Deal Finder        |                                                                                 | Python, API | Mar 05, 2022      |
+| 40               | Flight Club               |                                                                                 | Python, API | Mar 06, 2022      |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
