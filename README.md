@@ -50,10 +50,10 @@ The 100 days of code challenge 😍
 | 33               | ISS Overhead Notifier     | Making a automatic ISS detector and mail sender                                 | Python, API    | Feb 27, 2022   |
 | 34               | Quizzler App              | Making a quiz app using an external API                                         | Python, Tkinter, API | Feb 28, 2022 |
 | 35               | Weather Norifier          | Making a automatic weather report app to notify us for rain                     | Python, API | Mar 01, 2022      |
-| 36               |                           |                                                                                 |          | Mar 02, 2022         |
-| 37               |                           |                                                                                 |          | Mar 03, 2022         |
-| 38               |                           |                                                                                 |          |                      |
-| 39               |                           |                                                                                 |          |                      |
+| 36               | Stock Trading News Alert  | A basic app to check for deviations of a stock and notify us with the news      | Python, API | Mar 02, 2022      |
+| 37               | Habit Tracker             | A tracker for your daily habits                                                 | Python, API | Mar 03, 2022      |
+| 38               | Workout Tracker           | A tracker for your wrokouts and save them on google sheet                       | Python, API | Mar 03, 2022      |
+| 39               | Flight Deal Finder        |                                                                                 |          |                      |
 | 40               |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
