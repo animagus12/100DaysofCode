@@ -55,7 +55,7 @@ The 100 days of code challenge 😍
 | 38               | Workout Tracker           | A tracker for your wrokouts and save them on google sheet                       | Python, API | Mar 04, 2022      |
 | 39               | Flight Deal Finder        |                                                                                 | Python, API | Mar 05, 2022      |
 | 40               | Flight Club               |                                                                                 | Python, API | Mar 06, 2022      |
-|                  |                           |                                                                                 |          |                      |
+| 41               |                           |                                                                                 |          | Mar 07, 2022         |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
