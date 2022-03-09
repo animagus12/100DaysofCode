@@ -7,8 +7,7 @@ my_email = "subhrajit.panda1212@gmail.com"
 password = "Sbp@2001"
 
 # Update the birthdays.csv
-list_file = pandas.read_csv(
-    "birthdays.csv")
+list_file = pandas.read_csv("birthdays.csv")
 all_data = list_file.to_dict(orient="records")
 
 # Check if today matches a birthday in the birthdays.csv
@@ -17,7 +16,6 @@ letter_names = ["letter_1", "letter_2", "letter_3"]
 
 for entry in all_data:
     if (now.month == entry['month'] and now.day == entry['day']):
-
         # If true, pick a random letter from letter templates and replace the [NAME] with the person's actual name from birthdays.csv
         with open(f"letter_templates/{choice(letter_names)}.txt") as template:
             mail_text = template.read()
