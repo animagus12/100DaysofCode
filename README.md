@@ -56,9 +56,9 @@ The 100 days of code challenge 😍
 | 39               | Flight Deal Finder        |                                                                                 | Python, API | Mar 05, 2022      |
 | 40               | Flight Club               |                                                                                 | Python, API | Mar 06, 2022      |
 | 41               |                           |                                                                                 |          | Mar 07, 2022         |
-|                  |                           |                                                                                 |          |                      |
-|                  |                           |                                                                                 |          |                      |
-|                  |                           |                                                                                 |          |                      |
+| 42               |                           |                                                                                 |          |                      |
+| 43               |                           |                                                                                 |          |                      |
+| 44               |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
 |                  |                           |                                                                                 |          |                      |
