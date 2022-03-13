@@ -5,7 +5,7 @@ ENDPOINT = 'https://api.openweathermap.org/data/2.5/onecall'
 api_key = 'f6c1586d81afb95c234599cc660f643b'
 
 account_sid = 'AC8a2f8b00db295548bc94aa23a7ffe34b'
-auth_token = '18d7bdd8b8ca3b9a461a57e7e395aba0'
+auth_token = 'bad23e6676b66fbc6f42723cd9f7ada1'
 
 parameters = {
     'lat': -22.560881, 
@@ -34,7 +34,7 @@ if will_rain:
                     .create(
                         body="It's going to rain today. Remember to bring your Umbrella!",
                         from_='+19107271760',
-                        to='+919090305392'
+                        to='+917978133655'
                     )
 
     print(message.status)
