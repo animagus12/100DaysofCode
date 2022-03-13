@@ -5,12 +5,14 @@ ENDPOINT = 'https://api.openweathermap.org/data/2.5/onecall'
 api_key = 'f6c1586d81afb95c234599cc660f643b'
 
 account_sid = 'AC8a2f8b00db295548bc94aa23a7ffe34b'
-auth_token = '6a4dffcbc0d19b0fa18f871660633f58'
+auth_token = '18d7bdd8b8ca3b9a461a57e7e395aba0'
 
 parameters = {
-    'lat': -19.433442,
+    'lat': -22.560881, 
+    # -19.433442,
     # 22.260424,
-    'lon': 121.626892,
+    'lon': 17.065756,
+    # 121.626892,
     # 84.853584,
     'exclude': 'current,minutely,daily',
     'appid': api_key,
