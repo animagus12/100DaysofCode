@@ -54,7 +54,7 @@ if abs(diff_percent) > 4:
         f"{STOCK}: {up_down}{diff_percent}%\nHeadline: {article['title']}, \nBrief: {article['description']}" for article in articles]
 
     TWILIO_SID = 'AC8a2f8b00db295548bc94aa23a7ffe34b'
-    TWILIO_AUTH = '757efbe55317384292917b3bfdf11311'
+    TWILIO_AUTH = 'bad23e6676b66fbc6f42723cd9f7ada1'
     MY_NO = '+19107271760'
 
     client = Client(TWILIO_SID, TWILIO_AUTH)
@@ -62,8 +62,8 @@ if abs(diff_percent) > 4:
         message = client.messages \
                         .create(
                             body=article,
-                            from_='+19107271760',
-                            to='+919090305392'
+                            from_=MY_NO,
+                            to='+917978133655'
                         )
 
         print(message.status)

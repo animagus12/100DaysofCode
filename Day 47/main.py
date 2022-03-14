@@ -24,4 +24,4 @@ if int(current_price.replace(",", "")) <= FINAL_PRICE:
         connection.sendmail(
             from_addr=EMAIL,
             to_addrs=SENDER_EMAIL,
-            msg=f"Subject:Price Drop Alert\n\n{title} has dropped to ₹{FINAL_PRICE}\nLink: {PRODUCT_URL}")
+            msg=f"Subject:Price Drop Alert\n\n{title} has dropped to Rs.{FINAL_PRICE}\nLink: {PRODUCT_URL}")
