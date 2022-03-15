@@ -51,11 +51,3 @@ for job in jobs:
         
     except:
         continue
-
-
-
-
-
-
-
-# driver.close() # one tab
