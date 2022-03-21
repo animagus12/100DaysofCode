@@ -32,7 +32,7 @@ class InstaFollowBot:
         time.sleep(2)
 
         search = self.driver.find_element_by_css_selector("input")
-        search.send_keys("gaming")
+        search.send_keys(ACCOUNT)
 
         time.sleep(2)
 
