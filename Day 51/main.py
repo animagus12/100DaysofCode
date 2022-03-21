@@ -1,17 +1,21 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.keys import Keys
 # from creds import URL, EMAIL, PASSWORD, PHONE
 import time
 
 URL = "https://www.speedtest.net"
+TWITTER = "https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
 PROMISED_DOWN = 150
 PROMISED_IP = 10
 CHROME_DRIVER_PATH = "C:/Users/subhr/Documents/Programs/Development/chromedriver.exe"
+PHONE = "6371663500"
+PASS = "Sbp@12122001"
 
 
 class InternetSpeedTwitterBot:
     def __init__(self, driver_path):
-        self.driver = webdriver.Chrome(service = driver_path)
+        self.driver = webdriver.Chrome(service=driver_path)
         self.up = 0
         self.down = 0
 
@@ -21,29 +25,37 @@ class InternetSpeedTwitterBot:
         go = self.driver.find_element_by_xpath(
             '//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[1]/a/span[4]')
         go.click()
-        
-        self.up = self.driver.find_element_by_xpath('//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[2]/div/div[2]/span').text
-        self.down = self.driver.find_element_by_class_name(".upload-speed").text
 
-        in_progress = True
-        while in_progress:
-            progress = self.driver.find_element_by_css_selector("overall-progress").text
-            if progress.startswith("Your speed test has completed"):
-                download_result = self.driver.find_element_by_xpath('//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[2]/div/div[2]/span')
-                upload_result = self.driver.find_element_by_xpath('//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[3]/div/div[2]/span')       
-                print(f"Your download speed is {download_result.text} MBit/s and your upload speed is {upload_result.text} MBit/s")
-                in_progress = False
-            else:
-                time.sleep(5)
+        time.sleep(60)
+
+        self.down = self.driver.find_element_by_xpath(
+            '//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[2]/div/div[2]/span').text
+        self.up = self.driver.find_element_by_xpath(
+            '//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[3]/div/div[2]/span').text
 
     def tweet_at_provider(self):
-        pass
+        self.driver.get(TWITTER)
+        time.sleep(2)
+        email = self.driver.find_element_by_name("text")
+        email.send_keys(PHONE)
+        email.send_keys(Keys.ENTER)
+
+        time.sleep(2)
+        password = self.driver.find_element_by_name("password")
+        password.send_keys(PASS)
+        password.send_keys(Keys.ENTER)
+
+        time.sleep(5)
+        post = self.driver.find_element_by_xpath(
+            '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div/div[2]/div[1]/div/div/div/div/div/div/div/div/div/label/div[1]/div/div/div/div/div[2]/div/div/div/div')
+        post.send_keys(
+            f"Hey Jio, my is internet speed {self.down}download/{self.up}upload is too good to be true!")
+
+        tweet = self.driver.find_element_by_xpath(
+            '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div/div[2]/div[3]/div/div/div[2]/div[3]/div/span/span')
+        tweet.click()
 
 
 bot = InternetSpeedTwitterBot(Service(CHROME_DRIVER_PATH))
 bot.get_internet_speed()
 bot.tweet_at_provider()
-
-
-# login = self.driver.find_element_by_css_selector(".js-start-test .test-mode-multi")
-# login.click()
