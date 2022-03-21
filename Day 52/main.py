@@ -57,9 +57,10 @@ class InstaFollowBot:
         for button in all_buttons:
             try:
                 button.click()
-                time.sleep(1)
+                time.sleep(2)
             except ElementClickInterceptedException:
-                cancel_button = self.driver.find_element_by_xpath('/html/body/div[5]/div/div/div/div[3]/button[2]')
+                cancel_button = self.driver.find_element_by_xpath('/html/body/div[7]/div/div/div/div[3]/button[2]')
+                cancel_button.is_selected()
                 cancel_button.click()
 
 
