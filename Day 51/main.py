@@ -29,8 +29,8 @@ class InternetSpeedTwitterBot:
         while in_progress:
             progress = self.driver.find_element_by_css_selector("overall-progress").text
             if progress.startswith("Your speed test has completed"):
-                download_result = self.driver.find_element_by_css_selector(".download-speed")
-                upload_result = self.driver.find_element_by_css_selector(".upload-speed")        
+                download_result = self.driver.find_element_by_xpath('//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[2]/div/div[2]/span')
+                upload_result = self.driver.find_element_by_xpath('//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[3]/div/div[2]/span')       
                 print(f"Your download speed is {download_result.text} MBit/s and your upload speed is {upload_result.text} MBit/s")
                 in_progress = False
             else:
