@@ -1,17 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
-# from creds import URL, EMAIL, PASSWORD, PHONE
+from creds import PASS, PHONE, TWITTER
 import time
 
 URL = "https://www.speedtest.net"
-TWITTER = "https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
-PROMISED_DOWN = 150
-PROMISED_IP = 10
 CHROME_DRIVER_PATH = "C:/Users/subhr/Documents/Programs/Development/chromedriver.exe"
-PHONE = "6371663500"
-PASS = "Sbp@12122001"
-
 
 class InternetSpeedTwitterBot:
     def __init__(self, driver_path):
@@ -20,8 +14,10 @@ class InternetSpeedTwitterBot:
         self.down = 0
 
     def get_internet_speed(self):
+
         self.driver.get(URL)
-        time.sleep(3)
+        time.sleep(2)
+        
         go = self.driver.find_element_by_xpath(
             '//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[1]/a/span[4]')
         go.click()
@@ -49,7 +45,7 @@ class InternetSpeedTwitterBot:
         post = self.driver.find_element_by_xpath(
             '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div/div[2]/div[1]/div/div/div/div/div/div/div/div/div/label/div[1]/div/div/div/div/div[2]/div/div/div/div')
         post.send_keys(
-            f"Hey Jio, my is internet speed {self.down}download/{self.up}upload is too good to be true!")
+            f"Hey Jio, my is internet speed {self.down} download/{self.up} upload is too good to be true!")
 
         tweet = self.driver.find_element_by_xpath(
             '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div/div[2]/div[3]/div/div/div[2]/div[3]/div/span/span')
