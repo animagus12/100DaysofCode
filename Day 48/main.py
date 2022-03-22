@@ -2,7 +2,7 @@ from selenium import webdriver
 
 PRODUCT_URL = "https://www.amazon.in/OnePlus-10000-Charging-Lithium-Polymer/dp/B08HRZ3MXK/ref=nav_ya_signin?crid=18LIIYXWPILJM&keywords=power%2Bbank%2Boneplus&qid=1647176698&sprefix=power%2Bbank%2Bonel%2Caps%2C369&sr=8-1&th=1"
 
-chrome_driver_path = "C:/Users/subhr/OneDrive/Documents/Programs/Development/chromedriver.exe"
+chrome_driver_path = "C:/Users/subhr/Documents/Programs/Development/chromedriver.exe"
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 driver.get(PRODUCT_URL)
