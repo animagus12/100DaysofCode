@@ -15,12 +15,13 @@ class NotificationManager:
         self.client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
 
     def send_sms(self, message):
-        message = self.client.messages.create(
-            body=message,
-            from_=TWILIO_VIRTUAL_NUMBER,
-            to=TWILIO_VERIFIED_NUMBER,
-        )
-        print(message.sid)
+        # message = self.client.messages.create(
+        #     body=message,
+        #     from_=TWILIO_VIRTUAL_NUMBER,
+        #     to=TWILIO_VERIFIED_NUMBER,
+        # )
+        # print(message.sid)
+        pass
 
     def send_emails(self, emails, message, google_flight_link):
         with smtplib.SMTP(MAIL_PROVIDER_SMTP_ADDRESS) as connection:
