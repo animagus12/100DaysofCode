@@ -2,7 +2,6 @@ import datetime as dt
 import smtplib
 from random import choice
 
-from isort import file
 
 my_email = "neongen18@gmail.com"
 password = "Sbp@2001"
