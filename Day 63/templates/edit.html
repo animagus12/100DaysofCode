@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Entry</title>
+</head>
+
+<body>
+    <h1>Edit Entry</h1>
+    <form action="{{ url_for('edit') }}" method="POST">
+        <!-- <label for="">Book Name: {{book[1]}}</label> -->
+        <!-- <label for="">Author: {{book[2]}}</label> -->
+        <!-- <label for="">Current Rating: {{book[3]}}</label> -->
+        <input name="rating" type="text" placeholder="New Rating">
+        <button type="submit">Change Rating</button>
+    </form>
+    <!-- {% for book in books %} -->
+    <ul>
+        <!-- <li>{{ book[1] }} - {{ book[2] }} - {{ book[3] }}/10 - <a href="">Edit</a> - <a href="">Delete</a></li> -->
+    </ul>
+    {% endfor %}
+
+    <a href='{{ url_for("add") }}'>Add New Book</a>
+</body>
+
+</html>
