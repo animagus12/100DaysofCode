@@ -24,6 +24,7 @@ titles = soup.find_all(
     class_=TITLES_CLASS,
     id="title-of-a-story")
 
+
 number_one = soup.find(name="h3", class_=FIRST_CLASS, id="").text
 number_one = number_one.replace("\n", "")
 
@@ -34,7 +35,7 @@ top_titles.append(number_one)
 for title in titles:
     top_titles.append((title.getText()).replace("\n", ""))
 
-# print(top_titles)
+print(top_titles)
 # ------------------------------------------------------------------------------------------------------------------------
 
 
